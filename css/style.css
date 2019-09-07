@@ -19,6 +19,10 @@ main {
 header span {
     color: #000000;
 }
+.calendar{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 .headerstylemobile{
     display: none;
 }
@@ -49,6 +53,7 @@ header span {
 }
 
 .folowpost {
+    padding-bottom: 20px;
     margin-right: 27px;
     color: #3d4044;
 }
@@ -335,14 +340,14 @@ header span {
 }
 
 .comments::before {
-    content: url('/img/ic_mode_comment.png');
+    content: url('../img/ic_mode_comment.png');
     position: absolute;
     top: 3px;
     right: 50px;
 }
 
 .commentssecond::before {
-    content: url('/img/ic_mode_comment.png');
+    content: url('../img/ic_mode_comment.png');
     position: absolute;
     top: 3px;
     right: 68px;
