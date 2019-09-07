@@ -1,0 +1,640 @@
+body {
+
+    font-family: 'MyriadProRegular', sans-serif;
+}
+
+header {
+    text-shadow: 1px 1px 1px #b0b0b0,
+        1px -1px 1px #d4d4d4;
+    color: #0000;
+}
+
+main {
+    background-color: #fafafa;
+    text-shadow: 1px 1px 1px #7f8283,
+        1px -1px 1px #8d8882;
+}
+
+/*__________________________________________________Header style_________________________________*/
+header span {
+    color: #000000;
+}
+.calendar{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.headerstylemobile{
+    display: none;
+}
+.logoimagemobile{
+    display: none;
+}
+.logoimage {
+    padding-left: 50px;
+}
+
+.headerstyle {
+    padding-top: 50px;
+}
+
+.monostyle {
+    font-size: 2.1875rem;
+    padding-right: 20px;
+}
+
+.startporject {
+    position: absolute;
+    top: 10px;
+    border: 1px solid #4090db;
+    border-radius: 5px;
+    color: #4090db;
+    background-color: #ffffff;
+    padding: 6px 8px;
+}
+
+.folowpost {
+    padding-bottom: 20px;
+    margin-right: 27px;
+    color: #3d4044;
+}
+
+.salsa-calendar-input {
+    padding: 3px 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.close1::after {
+    cursor: pointer;
+    content: url('../img/ic_close_black_.png');
+    position: absolute;
+    left: 178px;
+
+}
+
+.close2::after {
+    cursor: pointer;
+    content: url('../img/ic_close_black_.png');
+    position: absolute;
+    right: 158px;
+
+}
+
+.open1::before {
+    cursor: pointer;
+    content: url('../img/ic_date_range.png');
+    position: absolute;
+    left: 210px;
+}
+
+.open2:before {
+    cursor: pointer;
+    content: url('../img/ic_date_range.png');
+    position: absolute;
+    right: 126px;
+}
+
+.salsa-calendar thead .sc-week-day {
+    text-transform: none;
+    font-weight: bold;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.salsa-calendar tbody td {
+    border: 0;
+
+}
+
+.salsa-calendar {
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+}
+
+.salsa-calendar tbody td.sc-current {
+    background: #4090db;
+    border: 1px solid;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.salsa-calendar thead th {
+    font-size: 1rem;
+    text-transform: none;
+}
+
+.salsa-calendar thead .sc-nav {
+    border: 0;
+}
+
+.sra {
+    visibility: hidden;
+}
+
+.salsa-calendar thead .sc-prev-month {
+    background-image: url('../img/1\ \(1\).png');
+}
+
+.salsa-calendar thead .sc-next-month {
+    background-image: url('../img/1\ \(2\).png');
+}
+
+/*__________________________________________________ Main style_________________________________ */
+.container {
+    color: #ffffff;
+    font-size: 1rem;
+    max-width: 966px;
+
+}
+
+.content {
+    padding-top: 71px;
+    justify-content: center;
+}
+
+#Look1 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image1.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+#Look2 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image2.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#Look3 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image3.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#Look4 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image4.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+#Look5 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image5.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#Look6 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image6.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#Look7 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image7.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+#Look8 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image8.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#Look9 {
+    align-items: flex-end;
+    display: flex;
+    background: url('../img/Image9.png') no-repeat;
+    max-width: 292px;
+    width: 100%;
+    height: 292px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.dateupload {
+
+    padding-bottom: 15px;
+    padding-left: 52px;
+}
+
+.dateuploadsecond {
+    margin-top: 55px;
+    padding-bottom: 15px;
+    padding-left: 52px;
+}
+
+.whenupload {
+    padding-bottom: 13px;
+    margin-left: 5px;
+}
+
+.whenuploadsecond {
+    padding-bottom: 13px;
+    margin-left: 23px;
+}
+
+.comments {
+    padding-bottom: 13px;
+    padding: 0px;
+    padding-left: 30px
+}
+
+.commentssecond {
+    padding-bottom: 13px;
+    padding: 0px;
+    padding-left: 15px
+}
+
+.likes {
+    padding-bottom: 13px;
+    margin-left: 25px;
+
+}
+
+.videoview {
+    padding-bottom: 25px;
+    margin-left: 25px;
+}
+
+.videoviewsecond,
+.videoviewsecondwithout {
+    padding-bottom: 13px;
+    margin-left: 25px;
+}
+.videoviewsecondwithout:before{
+    content: url('../img/ic_play_arrow.png');
+    position: absolute;
+    right: 66px;
+
+}
+.videoviewsecond:before{
+    content: url('../img/ic_play_arrow.png');
+    position: absolute;
+    right: 66px;
+}
+.videoviewsecond::after{
+    content: url('../img/Videmovie.png');
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+}
+
+.videoview::before {
+
+    content: url('../img/ic_play_arrow.png');
+    position: absolute;
+    right: 64px;
+    top: 1px;
+}
+
+.likes::before {
+    content: url('../img/ic_favorite.png');
+    position: absolute;
+    right: 64px;
+    top: 2px;
+
+}
+
+.comments::before {
+    content: url('../img/ic_mode_comment.png');
+    position: absolute;
+    top: 3px;
+    right: 50px;
+}
+
+.commentssecond::before {
+    content: url('../img/ic_mode_comment.png');
+    position: absolute;
+    top: 3px;
+    right: 68px;
+}
+
+.videoview::after {
+    content: url('../img/Videmovie.png');
+    position: absolute;
+    bottom: 205px;
+    left: 118px;
+}
+
+.buttonstyle {
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 70px;
+
+}
+
+.load {
+    text-shadow:
+        -1px 0px 1px #8d8882;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 6px 40px;
+    border: 1px solid #000000;
+}
+
+
+/*_________________________________MEDIA___________________________*/
+
+
+@media (max-width: 991px) {
+    #Look1,#Look2,#Look3,#Look4,#Look5,#Look6,#Look7,#Look8,#Look9{
+        font-size: 14px;
+        
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .headerstylemobile{
+     text-align: center;
+     display: block;
+        
+    }
+    .startporject{
+        position: relative;
+        top: -4px;
+    }
+    .headerstyle{
+        text-align: center;
+    }
+
+        
+   
+   
+    .logoimage{
+        text-align: center;
+    }
+    .whenupload{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 5px;
+    }
+    .comments{
+        padding-left: 20px;
+    }
+    .likes{
+        padding-left: 5px;
+        padding-right: 5px;
+
+        margin-left: 30px;
+    }
+    .videoview{
+        padding-bottom:13px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 30px;
+    }
+    .videoview::before{
+        right: 76px;
+    }
+    .videoview::after{
+        left: 110px;
+        bottom: 210px;
+    }
+    .whenuploadsecond{
+        margin-left: 5px;
+        padding-left: 0px;
+
+    }
+    .dateuploadsecond{
+        margin-top: 25px;
+    }
+    .commentssecond::before{
+        right: 65px;
+        
+    }
+    .videoviewsecondwithout:before{
+        right: 65px;
+    }
+    .videoviewsecond:before{
+        right: 65px;
+    }
+    .videoviewsecond::after{
+        bottom: 185px;
+        left: 115px;
+    }
+    .open1:before{
+        left: 467px;
+    }
+    .close1::after{
+        left: 435px;
+    }
+    .open2:before{
+        right: 272px;
+    }
+    .close2::after{
+        right: 304px;
+    }
+    .likes::before{
+        right: 75px;
+    }
+    .comments::before{
+        right: 60px;
+    }
+
+}
+
+@media (max-width: 981px) {
+    .close1::after{
+        content: "";
+    }
+    .close2::after{
+        content: "";
+    }
+    .open2:before{
+       content: "";
+    }
+    .open1:before{
+        content: "";
+     }
+
+}
+
+
+@media (max-width: 938px){
+    .dateuploadsecond{
+        margin-top: 0px;
+    }
+    .videoviewsecond::after{
+        bottom: 210px;
+    }
+    .commentssecond{
+        text-align: right;
+        padding-left: 5px;
+    }
+    .comments{
+        padding-left: 5px;
+        text-align: right;
+    }
+    .comments::before{
+        right: 35px;
+    }
+    .commentssecond::before{
+        right: 35px;
+    }
+}
+@media (max-width: 880px){
+.videoviewsecond::after{
+    left: 105px
+}
+.videoview::after{
+    left: 105px
+}
+}
+@media (max-width: 820px){
+    .videoviewsecond::after{
+        left: 95px
+    }
+    .videoview::after{
+        left: 95px
+    }
+
+}
+@media (max-width: 770px){
+    .videoviewsecond::after{
+        left: 80px
+    }
+    .videoview::after{
+        left: 80px
+    }
+}  
+
+
+@media (max-width: 705px){
+    .videoviewsecond::after{
+        left: 65px;
+    }
+    .videoview::after{
+        left: 65px;
+        
+    }
+}    
+@media (max-width: 680px){
+    .dateuploadsecond{
+        padding-left: 25px;
+    }
+    .dateupload{
+        padding-left: 25px;
+    }
+    .videoviewsecond::after{
+        bottom: 205px;
+    }
+    .videoview::after{
+        bottom: 205px;
+    }
+    .whenuploadsecond,.whenuploadsecond{
+        padding-right: 0px;
+    }
+    .likes {
+        margin-left: 20px;
+    }
+    .likes::before{
+        right: 52px;
+    }
+    .videoview{
+        margin-left: 20px;
+    }
+    .videoview::before{
+        right: 54px;
+    }
+    .videoviewsecond, .videoviewsecondwithout{
+        margin-left: 20px;
+    }
+    .videoviewsecondwithout:before{
+        right: 43px;
+    }
+    .videoviewsecond:before {
+        right: 43px;
+    }
+}
+@media (max-width: 600px){
+    #Look1,#Look2,#Look3,#Look4,#Look5,#Look6,#Look7,#Look8,#Look9{
+        font-size: 12px;
+    }
+}
+@media (max-width: 575.5px){
+
+    #Look1,#Look2,#Look3,#Look4,#Look5,#Look6,#Look7,#Look8,#Look9{
+        font-size: 16px;
+    }
+    .dateuploadsecond{
+        padding-left: 40px;
+    }
+    .dateupload{
+        padding-left: 40px;
+    }
+    .videoviewsecond::after{
+        left: 107px;
+        bottom: 200px
+    }
+    .videoview::after{
+        left: 107px;
+        bottom: 200px
+    }
+    .likes::before{
+        right: 78px;
+    }
+    .videoviewsecondwithout:before{
+        right: 70px;
+    }
+    .videoviewsecond:before{
+        right: 70px;
+    }
+    .videoview::before{
+        right: 80px;
+    }
+    
+}
+
+@media (max-width: 320px){
+    .salsa-calendar-input{
+        width: 100px;
+    }
+    .folowpost{
+        margin-right: 12px;
+        
+        font-size: 15px;  
+    }
+}
